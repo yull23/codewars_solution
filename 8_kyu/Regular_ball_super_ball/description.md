@@ -1,4 +1,4 @@
-# [Regular Ball Super Ball](https://www.codewars.com/kata/53f0f358b9cb376eca001079)
+# [Regular Ball Super Ball:](https://www.codewars.com/kata/53f0f358b9cb376eca001079)
 
 ## Description:
 
