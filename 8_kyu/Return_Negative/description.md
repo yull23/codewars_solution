@@ -1,19 +1,24 @@
-# [Return Negative:](https://www.codewars.com/kata/55685cd7ad70877c23000102)
+# [A square of squares](https://www.codewars.com/kata/54c27a33fb7da0db0100040e)
 
-## Description:
+You like building blocks. You especially like building blocks that are squares. And what you even like more, is to arrange them into a square of square building blocks!
 
-In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+However, sometimes, you can't arrange them into a square. Instead, you end up with an ordinary rectangle! Those blasted things! If you just had a way to know, whether you're currently working in vain… Wait! That's it! You just have to check if your number of building blocks is a perfect square.
 
-### Examples
+## Task
+
+Given an integral number, determine if it's a [square number](https://www.codewars.com/kata/55685cd7ad70877c23000102):
+
+> In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
+
+The tests will always use some integral number, so don't worry about that in dynamic typed languages.
+
+## Examples
 
 ```
-makeNegative(1);    // return -1
-makeNegative(-5);   // return -5
-makeNegative(0);    // return 0
-makeNegative(0.12); // return -0.12
+-1  =>  false
+ 0  =>  true
+ 3  =>  false
+ 4  =>  true
+25  =>  true
+26  =>  false
 ```
-
-### Notes
-
-- The number can be negative already, in which case no change is required.
-- Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
