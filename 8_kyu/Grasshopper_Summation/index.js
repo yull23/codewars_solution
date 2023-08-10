@@ -1,11 +1,18 @@
-var summation = function (num) {
-  let sumValues = 0;
-  for (let i = 1; i <= num; i++) {
-    sumValues = sumValues + i;
+function basicOp(operation, value1, value2) {
+  // Code
+  switch (operation) {
+    case "-":
+      return value1 - value2;
+    case "+":
+      return value1 + value2;
+    case "*":
+      return value1 * value2;
+    case "/":
+      return value1 / value2;
   }
-  return sumValues;
-};
+}
 // test
-console.log(summation(1));
-console.log(summation(2));
-console.log(summation(8));
+console.log(basicOp("+", 4, 7));
+console.log(basicOp("-", 15, 18));
+console.log(basicOp("*", 5, 5));
+console.log(basicOp("/", 49, 7));

@@ -1,10 +1,17 @@
-# [Grasshopper - Summation:](https://www.codewars.com/kata/55d24f55d7dd296eb9000030)
+# [Basic Mathematical Operation:](https://www.codewars.com/kata/57356c55867b9b7a60000bd7)
 
-## Summation
+## Description
 
-Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+Your task is to create a function that does four basic mathematical operations.
+
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+## Examples(Operator, value1, value2) --> output
 
 ```
-2 -> 3 (1 + 2)
-8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
 ```
