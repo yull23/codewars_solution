@@ -1,4 +1,4 @@
-# CodeWars Resolutions in JavaScript Python, Ruby and more: A Personal Touch in the Middle of Full Stack Bootcamp
+# CodeWars Resolutions in JavaScript, Python, Ruby and more: A Personal Touch in the Middle of Full Stack Bootcamp
 
 Hello everyone! This is my CodeWars profile, where I immerse myself in programming challenges and constantly seek to expand my skills. If you are as passionate about coding as I am, I invite you to explore my solutions and solved challenges on [my Codewars profile](https://www.codewars.com/users/yull23). Here you will find a collection of my solutions to challenging CodeWars programming problems, tackled using JavaScript, Python, and Ruby.
 Although I enjoy working in all three languages, I have focused my attention on enhancing my JavaScript skills due to its versatility to tackle a wide range of problems, however I have not neglected the magic of Python, a language that I consider powerful, friendly and Personally my favorite to date.
