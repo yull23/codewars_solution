@@ -1,23 +1,9 @@
-# [Sum of a sequence:](https://www.codewars.com/kata/586f6741c66d18c22800010a)
+# [Sum of two lowest positive integers:](https://www.codewars.com/kata/558fc85d8fd1938afb000014)
 
 ## Description:
 
-Your task is to write a function which returns the sum of a sequence of integers.
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
-The sequence is defined by 3 non-negative values: begin, end, step.
+For example, when an array is passed like `[19, 5, 42, 2, 77]`, the output should be 7.
 
-If begin value is greater than the end, your function should return 0. If end is not the result of an integer number of steps, then don't add it to the sum. See the 4th example below.
-
-## Examples.
-
-```
-2,2,2 --> 2
-2,6,2 --> 12 (2 + 4 + 6)
-1,5,1 --> 15 (1 + 2 + 3 + 4 + 5)
-1,5,3  --> 5 (1 + 4)
-```
-
-This is the first kata in the series:
-
-1. Sum of a sequence (this kata)
-1. [Sum of a Sequence [Hard-Core Version]](https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/javascript)
+`[10, 343445353, 3453445, 3453545353453]` should return 3453455.

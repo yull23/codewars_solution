@@ -1,26 +1,16 @@
-const sequenceSum = (begin, end, step) => {
-  //   No loop
-
-  //   if (end <= begin) return 0;
-  //   let n = Math.floor((end - begin) / step) + 1;
-  //   let newEnd = (n - 1) * step + begin;
-  //   return ((newEnd + begin) * n) / 2;
-
-  //   with loop
-
-  //   sum=0;
-  //   for(let i=begin;i<=end;i+=step){
-  //     sum+=i;
-  //   }
-  //   return sum;
-
-  //   with recursion
-  if (begin <= end) {
-    return begin + sequenceSum(begin + step, end, step);
-  }
-  return 0;
-};
+function sumTwoSmallestNumbers(numbers) {
+  let newNumbers = numbers.sort((a, b) => a - b);
+  return newNumbers[0] + newNumbers[1];
+}
 // test
-console.log(sequenceSum(2, 6, 2));
-console.log(sequenceSum(1, 5, 1));
-console.log(sequenceSum(1, 5, 3));
+let data;
+data = [15, 28, 4, 2, 43];
+console.log(sumTwoSmallestNumbers(data));
+data = [5, 8, 12, 19, 22];
+console.log(sumTwoSmallestNumbers(data));
+data = [3, 87, 45, 12, 7];
+console.log(sumTwoSmallestNumbers(data));
+data = [23, 71, 33, 82, 1];
+console.log(sumTwoSmallestNumbers(data));
+data = [52, 76, 14, 12, 4];
+console.log(sumTwoSmallestNumbers(data));
