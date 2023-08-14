@@ -1,4 +1,4 @@
-# [The Sum and The Rest of Certain Pairs of Numbers have to be Perfect Squares (more Challenging)](https://www.codewars.com/kata/526dbd6c8c0eb53254000110)
+# [The Sum and The Rest of Certain Pairs of Numbers have to be Perfect Squares (more Challenging)](https://www.codewars.com/kata/57aaaada72292d3b8f0001b4)
 
 ## Description:
 
